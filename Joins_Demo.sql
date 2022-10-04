@@ -1,11 +1,11 @@
 
--- Caution: below statement drops the existing storage_sj table
+-- Caution: this statement drops the existing storage_sj table
 DROP TABLE IF EXISTS storage_sj;
 
--- creating storage_sj table
+-- Creating storage_sj table
 CREATE TABLE storage_sj (owners VARCHAR, item_1_sj VARCHAR, item_2_sj VARCHAR, item_3_sj VARCHAR);
 
--- inserting date into storage_sj table
+-- Inserting data into storage_sj table
 INSERT INTO storage_sj (owners, item_1_sj, item_2_sj, item_3_sj)
 VALUES ('Matt', 'TV', 'Canoe', 'Mattress'),
        ('Cody', 'Saxophone', 'Piano', 'DJ Set');
@@ -13,13 +13,13 @@ VALUES ('Matt', 'TV', 'Canoe', 'Mattress'),
 SELECT *
 FROM storage_sj;
 
--- Caution: below statement drops the existing storage_ok table
+-- Caution: this statement drops the existing storage_ok table
 DROP TABLE IF EXISTS storage_ok;
 
--- creating storage_ok table
+-- Creating storage_ok table
 CREATE TABLE storage_ok (owners VARCHAR, item_1_ok VARCHAR, item_2_ok VARCHAR, item_3_ok VARCHAR);
 
--- inserting data into storage_ok table
+-- Inserting data into storage_ok table
 INSERT INTO storage_ok (owners, item_1_ok, item_2_ok, item_3_ok)
 VALUES ('Matt', 'Dresser', 'Tires', 'Safe'),
        ('Donna', 'Shoes', 'Pots', 'Pole');
