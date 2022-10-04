@@ -27,7 +27,7 @@ VALUES ('Matt', 'Dresser', 'Tires', 'Safe'),
 SELECT *
 FROM storage_ok;
 
--- INNER JOIN [storage_sj and storage_ok]
+-- INNER JOIN [storage_sj and storage_ok], simply use the JOIN command here
 SELECT sj.*,
        ok.item_1_ok,
        ok.item_2_ok,
@@ -51,7 +51,7 @@ SELECT ok.*,
 FROM storage_sj sj
 RIGHT JOIN storage_ok ok ON sj.owners = ok.owners;
 
--- FULL OUTER JOIN [storage_sj and storage_ok]
+-- FULL OUTER JOIN [storage_sj and storage_ok], FULL JOIN or FULL OUTER JOIN command may be used here
 SELECT *
 FROM storage_sj sj
 FULL JOIN storage_ok ok ON sj.owners = ok.owners;
