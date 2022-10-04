@@ -38,4 +38,4 @@ DDL Used: `drop` and `create`
 
 ## How to run:
 1. Download the `Assignment5_script` file.
-2. Follow the comments and run queries using any suitable IDE on the posrgreSQL.
+2. Follow the comments and run queries using any suitable IDE on the postgreSQL.
