@@ -37,5 +37,5 @@ storage_ok
 DDL Used: `drop` and `create`
 
 ## How to run:
-1. Download the `Assignment5_script` file.
+1. Download the `Joins_demo.sql` file.
 2. Follow the comments and run queries using any suitable IDE on the postgreSQL.
